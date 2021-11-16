@@ -43,6 +43,7 @@ var lifesAnswers = [
 
 console.log(answer);
 
+
 for (var i=1; i<101; i++) {
     var answer = lifesAnswers[Math.floor(Math.random() * lifesAnswers.length)];
     console.log(answer);
